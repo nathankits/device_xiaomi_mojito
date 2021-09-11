@@ -14,10 +14,13 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some common Legion stuff
 $(call inherit-product, vendor/legion/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # LegionOS Device Maintainers
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.maintainer.name=Nathaniel_Quitua
+    
+LEGION_MAINTAINER := Nathaniel_Quitua
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := legion_mojito
