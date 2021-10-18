@@ -16,6 +16,11 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
+# Arcabe Official
+ARCANE_OFFICIAL := true
+ARCANE_DEVICE := Mojito
+ARCANE_MAINTAINER := Nathaniel_Quitua
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_mojito
 PRODUCT_DEVICE := mojito
