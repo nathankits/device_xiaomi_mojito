@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/legion_mojito.mk
+    $(LOCAL_DIR)/aosp_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    legion_mojito-user \
-    legion_mojito-userdebug \
-    legion_mojito-eng
+    aosp_mojito-user \
+    aosp_mojito-userdebug \
+    aosp_mojito-eng
